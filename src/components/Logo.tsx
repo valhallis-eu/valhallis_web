@@ -14,13 +14,13 @@ function Logo({ variant = 'default', size = 'md', className = '', onClick }: Log
     : '/assets/VA_LOGO_3.png';
   
   const sizeClasses = {
-    sm: 'w-32 h-10',
-    md: 'w-40 h-12',
-    lg: 'w-48 h-14',
-    xl: 'w-64 h-20',
-    '2xl': 'w-80 h-24',
-    '3xl': 'w-96 h-28',
-    '4xl': 'w-112 h-32'
+   sm: 'w-48 h-14',
+    md: 'w-64 h-20',
+    lg: 'w-80 h-24',
+    xl: 'w-96 h-28',
+    '2xl': 'w-120 h-36',
+    '3xl': 'w-144 h-40',
+    '4xl': 'w-168 h-48'
   };
 
   return (
