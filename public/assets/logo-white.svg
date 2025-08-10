@@ -1,0 +1,35 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Background -->
+  <path d="M10 15 L10 35 Q10 45 20 45 L30 45 Q40 45 40 35 L40 15 Q40 5 30 5 L20 5 Q10 5 10 15 Z" 
+        fill="url(#goldGradient)" stroke="#d4af37" stroke-width="1"/>
+  
+  <!-- Crown -->
+  <path d="M15 12 L18 8 L21 12 L24 8 L27 12 L30 8 L33 12 L30 16 L18 16 L15 12 Z" 
+        fill="white" stroke="#d4af37" stroke-width="0.5"/>
+  
+  <!-- Shield Details -->
+  <path d="M15 20 L25 20 L25 25 L15 25 Z" fill="white" opacity="0.3"/>
+  <path d="M15 28 L25 28 L25 33 L15 33 Z" fill="white" opacity="0.3"/>
+  
+  <!-- VALHALLIS Text -->
+  <text x="55" y="25" font-family="Playfair Display, serif" font-size="18" font-weight="700" fill="white">
+    VALHALLIS
+  </text>
+  
+  <!-- ADVISORS Text -->
+  <text x="55" y="40" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#d4af37">
+    ADVISORS
+  </text>
+  
+  <!-- Decorative Line -->
+  <line x1="55" y1="45" x2="180" y2="45" stroke="#d4af37" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:0.1" />
+      <stop offset="50%" style="stop-color:#d4af37;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#d4af37;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+</svg> 

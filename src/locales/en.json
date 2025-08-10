@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "whyValhallis": "Why Valhallis",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Elite Business Intelligence",
+    "subtitle": "Discreet and Confidential",
+    "description": "Strategic intelligence for decision makers who demand precision, discretion, and results.",
+    "cta": "Request Consultation",
+    "scrollText": "Learn More",
+    "discretion": "Discretion",
+    "discretionDesc": "Absolute confidentiality guaranteed",
+    "intelligence": "Intelligence",
+    "intelligenceDesc": "Strategic insights that matter",
+    "precision": "Precision",
+    "precisionDesc": "Useful intelligence delivered"
+  },
+  "about": {
+    "title": "About Valhallis Advisors",
+    "subtitle": "Excellence in Strategic Intelligence",
+    "description": "We provide elite business intelligence services for executives and decision makers who require discreet, accurate, and actionable information.",
+    "mission": "Our Mission",
+    "missionText": "Delivering strategic intelligence that protects assets, identifies opportunities, and enables precise decision-making in complex business environments.",
+    "approach": "Our Approach",
+    "approachText": "We combine advanced analytical methods with deep industry knowledge to deliver information that matters at the right time.",
+    "values": "Our Values",
+    "discretion": "Absolute Discretion",
+    "discretionText": "Your confidentiality is our highest priority",
+    "precision": "Strategic Precision",
+    "precisionText": "Every piece of information is actionable and accurate",
+    "excellence": "Elite Excellence",
+    "excellenceText": "We deliver results that exceed expectations"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Strategic Intelligence Solutions",
+    "readyToBegin": "Ready to Begin?",
+    "readyToBeginDescription": "Contact us for a confidential consultation regarding your intelligence needs.",
+    "learnMore": "Learn More",
+    "competitiveIntelligence": {
+      "title": "Competitive Intelligence",
+      "question": "Do you know what your competitors are planning?",
+      "description": "Comprehensive analysis of competitive landscape, market positioning, and strategic initiatives."
+    },
+    "riskAssessment": {
+      "title": "Risk Assessment",
+      "question": "Are you aware of all potential threats?",
+      "description": "Identification and analysis of operational, financial, and strategic risks for your organization."
+    },
+    "dueDiligence": {
+      "title": "Contractor Analysis",
+      "question": "Can you trust your business partners?",
+      "description": "Thorough investigation of potential partners, investments, and business opportunities."
+    },
+    "strategicConsulting": {
+      "title": "Strategic Consulting",
+      "question": "Are your decisions based on complete information?",
+      "description": "Strategic guidance based on comprehensive intelligence and market analysis."
+    }
+  },
+  "whyValhallis": {
+    "title": "Why Valhallis",
+    "subtitle": "Elite Intelligence, Discreet Service",
+    "expertise": "Deep Expertise",
+    "expertiseText": "Years of experience in business intelligence and strategic consulting",
+    "discretion": "Absolute Discretion",
+    "discretionText": "Your confidentiality is protected at every level",
+    "results": "Proven Results",
+    "resultsText": "History of delivering actionable intelligence that drives decisions",
+    "global": "Global Reach",
+    "globalText": "International expertise and global capabilities"
+  },
+  "trustDesign": {
+    "title": "Trust Through Design",
+    "description": "Our minimalist approach reflects our commitment to clarity, precision, and discretion. We believe trust is built through restraint and excellence, not through boasting.",
+    "confidentiality": "Confidentiality",
+    "confidentialityGuaranteed": "Guaranteed",
+    "availability": "Availability",
+    "globalSupport": "Global Support",
+    "expertise": "Expertise",
+    "worldwideReach": "Worldwide Reach"
+  },
+  "contact": {
+    "title": "Request Consultation",
+    "subtitle": "Start Your Strategic Partnership",
+    "description": "Contact us for a confidential consultation regarding your intelligence needs.",
+    "placeholderName": "",
+    "placeholderEmail": "",
+    "placeholderCompany": "",
+    "placeholderMessage": "",
+    "contactInfo": {
+      "title": "Contact Information",
+      "description": "We maintain the highest standards of confidentiality and discretion in all communications.",
+      "confidentiality": {
+        "title": "Confidentiality",
+        "description": "All communications are encrypted and secure"
+      },
+      "emailCommunication": {
+        "title": "Email Communication",
+        "description": "All emails sent from no-reply@valhallis.eu Response within 24 hours"
+      },
+      "globalAvailability": {
+        "title": "Global Availability",
+        "description": "24/7 support across all time zones"
+      }
+    },
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company",
+      "message": "Message",
+      "submit": "Send Request",
+      "sending": "Sending...",
+      "success": "Message sent successfully. We will contact you soon.",
+      "error": "Error sending message. Please try again.",
+      "characters": "characters",
+      "verificationSent": "Verification email has been sent. Check your inbox and click the confirmation link.",
+      "verificationRequired": "Email verification is required before sending the request.",
+      "emailVerified": "Email has been verified. You can now send your request.",
+      "verifying": "Verifying...",
+      "sendVerification": "Send Verification",
+      "verificationError": "Error sending verification. Please try again.",
+      "verificationExpired": "Verification link has expired. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "description": "We maintain the highest standards of confidentiality and discretion in all communications.",
+      "confidentiality": {
+        "title": "Confidentiality",
+        "description": "All communications are encrypted and secure"
+      },
+      "emailCommunication": {
+        "title": "Email Communication",
+        "description": "All emails sent from no-reply@valhallis.eu"
+      },
+      "emailResponse": "Response within 24 hours",
+      "globalAvailability": {
+        "title": "Global Availability",
+        "description": "24/7 support across all time zones"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Valhallis Advisors. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "description": "Elite business intelligence for strategic decision makers. Discreet, multilingual, and confidential services worldwide.",
+    "services": "Services",
+    "competitiveIntelligence": "Competitive Intelligence",
+    "riskAssessment": "Risk Assessment",
+    "dueDiligence": "Due Diligence",
+    "strategicConsulting": "Strategic Consulting",
+    "contact": "Contact",
+    "requestConsultation": "Request Consultation",
+    "confidentialInquiries": "Confidential inquiries only"
+  },
+  "language": {
+    "en": "English"
+  },
+  "emails": {
+    "verification": {
+      "subject": "Confirm your email address - Valhallis Advisors",
+      "greeting": "Hello,",
+      "intro": "Thank you for your interest in our services. To continue the application process, please confirm your email address.",
+      "verificationLink": "Click the link below to confirm your email address:",
+      "expiresIn": "Link expires in 24 hours.",
+      "ignoreIfNotYou": "If you did not submit this application, you can ignore this email.",
+      "regards": "Best regards,",
+      "team": "Valhallis Advisors Team",
+      "footer": "This is an automated message. Please do not reply to this email."
+    },
+    "confirmation": {
+      "subject": "Request Received - Valhallis Advisors",
+      "greeting": "Hello,",
+      "thankYou": "Thank you for submitting your request. We have received your message and will contact you within 24 hours.",
+      "details": "Request details:",
+      "name": "Full name:",
+      "email": "Email:",
+      "company": "Company:",
+      "message": "Message:",
+      "regards": "Best regards,",
+      "team": "Valhallis Advisors Team"
+    }
+  }
+} 

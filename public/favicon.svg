@@ -1,0 +1,22 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Background -->
+  <path d="M4 6 L4 18 Q4 22 8 22 L12 22 Q16 22 16 18 L16 6 Q16 2 12 2 L8 2 Q4 2 4 6 Z" 
+        fill="url(#goldGradient)" stroke="#d4af37" stroke-width="0.5"/>
+  
+  <!-- Crown -->
+  <path d="M6 5 L7.5 3.5 L9 5 L10.5 3.5 L12 5 L13.5 3.5 L15 5 L13.5 7 L7.5 7 L6 5 Z" 
+        fill="#1a2b4a" stroke="#d4af37" stroke-width="0.2"/>
+  
+  <!-- Shield Details -->
+  <path d="M6 8 L10 8 L10 10 L6 10 Z" fill="#1a2b4a" opacity="0.3"/>
+  <path d="M6 12 L10 12 L10 14 L6 14 Z" fill="#1a2b4a" opacity="0.3"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:0.1" />
+      <stop offset="50%" style="stop-color:#d4af37;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#d4af37;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+</svg> 
