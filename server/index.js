@@ -40,7 +40,7 @@ const PORT = process.env.PORT || 3001;
 // Security middleware
 app.use(helmet());
 app.use(cors({
-  origin: ['https://valhallis-eu.github.io', 'https://valhallis.eu'],
+  origin: ['https://valhallis-eu.github.io', 'https://valhallis.eu','http://valhallis.eu'],
   credentials: true
 }));
 
