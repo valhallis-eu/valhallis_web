@@ -107,4 +107,4 @@ export async function sendConfirmationEmail(userEmail: string, userName: string,
       message: 'Błąd wysyłania emaila potwierdzającego'
     };
   }
-} 
+} // Force rebuild
