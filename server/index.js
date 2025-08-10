@@ -151,10 +151,10 @@ app.post('/api/email/verification', emailLimiter, async (req, res) => {
 
     const verificationUrl = `${req.protocol}://${req.get('host')}/verify?token=${token}`;
     const publicBaseUrl = process.env.PUBLIC_BASE_URL || 'http://localhost:3000';
-    const localLogoPath = join(__dirname, '..', 'public', 'assets', 'VA_LOGO_3.png');
+    const localLogoPath = join(__dirname, '..', 'public', 'assets', 'VA_LOGO_3.jpg');
     const hasLocalLogo = existsSync(localLogoPath);
     const logoCid = 'va_logo@valhallis';
-    const logoUrl = `${publicBaseUrl}/assets/VA_LOGO_3.png`;
+    const logoUrl = `${publicBaseUrl}/assets/VA_LOGO_3.jpg`;
 
     const info = await transporter.sendMail({
       from: emailConfig.smtp.auth.user,
@@ -210,7 +210,7 @@ app.post('/api/email/verification', emailLimiter, async (req, res) => {
         </body>
         </html>
       `,
-      attachments: hasLocalLogo ? [{ filename: 'VA_LOGO_3.png', path: localLogoPath, cid: logoCid }] : []
+      attachments: hasLocalLogo ? [{ filename: 'VA_LOGO_3.jpg', path: localLogoPath, cid: logoCid }] : []
     });
     if (isEtherealTransport(transporter)) {
       const url = nodemailer.getTestMessageUrl(info);
