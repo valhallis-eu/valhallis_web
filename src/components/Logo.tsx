@@ -10,8 +10,8 @@ interface LogoProps {
 function Logo({ variant = 'default', size = 'md', className = '', onClick }: LogoProps) {
   // Use PNG logo if available, otherwise fall back to SVG
   const logoFile = variant === 'white' 
-    ? '/assets/VA_LOGO_3.png' 
-    : '/assets/VA_LOGO_3.png';
+    ? './assets/VA_LOGO.png' 
+    : './assets/VA_LOGO.png';
   
   const sizeClasses = {
    sm: 'w-48 h-14',
