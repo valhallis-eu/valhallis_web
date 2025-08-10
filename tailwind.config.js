@@ -45,9 +45,9 @@ export default {
           '0%': { transform: 'translateY(20px)', opacity: '0' },
           '100%': { transform: 'translateY(0)', opacity: '1' },
         },
-        glow: {
-          '0%': { boxShadow: '0 0 5px #d4af37' },
-          '100%': { boxShadow: '0 0 20px #d4af37, 0 0 30px #d4af37' },
+         glow: {
+          '0%': { filter: 'blur(2px) drop-shadow(0 0 5px #d4af37)' },
+          '100%': { filter: 'blur(4px) drop-shadow(0 0 20px #d4af37) drop-shadow(0 0 30px #d4af37)' },
         },
       },
       boxShadow: {
