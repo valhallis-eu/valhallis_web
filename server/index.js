@@ -40,9 +40,12 @@ const PORT = process.env.PORT || 3001;
 // Security middleware
 app.use(helmet());
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:5173', 'https://valhallis-eu.github.io'],
+  origin: ['https://valhallis-eu.github.io', 'https://valhallis.eu'],
   credentials: true
 }));
+
+// Trust proxy for rate limiting
+app.set('trust proxy', 1);
 
 // Rate limiting
 const limiter = rateLimit({
@@ -150,7 +153,7 @@ app.post('/api/email/verification', emailLimiter, async (req, res) => {
     const transporter = await getTransporter();
 
     const verificationUrl = `${req.protocol}://${req.get('host')}/verify?token=${token}`;
-    const publicBaseUrl = process.env.PUBLIC_BASE_URL || 'http://localhost:3000';
+    const publicBaseUrl = process.env.PUBLIC_BASE_URL || 'https://valhallis-eu.github.io/valhallis_web';
     const localLogoPath = join(__dirname, '..', 'public', 'assets', 'VA_LOGO_3.jpg');
     const hasLocalLogo = existsSync(localLogoPath);
     const logoCid = 'va_logo@valhallis';
@@ -250,7 +253,7 @@ app.get('/verify', async (req, res) => {
     }
     const { email } = entry;
     verificationTokens.delete(token);
-    const publicBaseUrl = process.env.PUBLIC_BASE_URL || 'http://localhost:3000';
+    const publicBaseUrl = process.env.PUBLIC_BASE_URL || 'https://valhallis-eu.github.io/valhallis_web';
     const redirectUrl = `${publicBaseUrl}/?verified_email=${encodeURIComponent(email)}`;
     res.redirect(302, redirectUrl);
   } catch (error) {
@@ -258,12 +261,6 @@ app.get('/verify', async (req, res) => {
     res.status(500).send('Error');
   }
 });
-
-// Email verification disabled
-
-// Token verification disabled
-
-// Background verification disabled
 
 // Consultation request endpoint
 app.post('/api/email/consultation', emailLimiter, async (req, res) => {
@@ -458,4 +455,4 @@ app.get('/api/health', (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
-}); 
+});
