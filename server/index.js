@@ -182,11 +182,6 @@ app.post('/api/email/verification', emailLimiter, async (req, res) => {
                     </td>
                   </tr>
                   <tr>
-                    <td style="padding:16px 28px 8px 28px;font-family:Arial,Helvetica,sans-serif;color:#333333;font-size:14px;line-height:22px;">
-                      ${language === 'en' ? 'Click the button below to verify your email address and continue.' : 'Kliknij poniższy przycisk, aby zweryfikować adres email i kontynuować.'}
-                    </td>
-                  </tr>
-                  <tr>
                     <td style="padding:8px 28px 16px 28px;font-family:Arial,Helvetica,sans-serif;color:#1a2b4a;font-size:16px;font-weight:600;text-align:center;background:#f8f9fa;border-left:4px solid #d4af37;margin:0 28px;">
                       ${language === 'en' ? 'Click the button below to verify your email address and continue.' : 'Kliknij poniższy przycisk, aby zweryfikować adres email i kontynuować.'}
                     </td>
