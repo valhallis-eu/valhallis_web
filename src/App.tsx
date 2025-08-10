@@ -6,6 +6,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import CookieBanner from './components/CookieBanner';
 
 function App() {
   const { t: _t } = useTranslation();
